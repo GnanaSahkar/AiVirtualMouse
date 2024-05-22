@@ -4,7 +4,7 @@ import time
 import math
 import numpy as np
 
-
+# module to Find Hand
 class handDetector():
     def __init__(self, mode=False, maxHands=2, detectionCon=0.5, trackCon=0.5):
         self.mode = mode
